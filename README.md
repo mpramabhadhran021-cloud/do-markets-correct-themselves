@@ -15,9 +15,7 @@ project/
 │   ├── raw/            # Raw series exactly as collected from source (FRED / EIA)
 │   └── processed/       # Cleaned, merged, inflation-adjusted panels (data_prep.py output)
 ├── scripts/
-│   ├── data_prep.py     # Reproducible cleaning/merging pipeline (raw -> processed)
-│   ├── nb_builder.py    # Helper used to programmatically build the notebooks
-│   └── build_nb*.py     # Scripts that generate the two notebooks (for transparency)
+│   └── data_prep.py     # Reproducible cleaning/merging pipeline (raw -> processed)
 └── notebooks/
     ├── 01_market_data_analysis.ipynb              # Data, EDA, core regressions, lag/ACF analysis
     └── 02_market_self_correction_analysis.ipynb   # Shocks, bootstrap, robustness, cross-market, conclusion
