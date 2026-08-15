@@ -1,11 +1,11 @@
 # Do Markets Correct Themselves?
-### A Statistical Investigation of Adam Smith's Invisible Hand Using Real-World Market Data
+### From Individual Incentives to Market Coordination: A Statistical Investigation Inspired by Adam Smith's “Invisible Hand”
 
 ## Overview
 
-This project asks: **do competitive markets show statistical evidence of self-correction
-after supply and demand changes?** It studies three real markets — crude oil (WTI),
-wheat, and copper — using real, publicly sourced monthly data from 1986/1992–2026.
+This project asks: **do competitive markets show statistical evidence of self-correction and market coordination after supply and demand changes?** It is inspired by Adam Smith's concept of the **“Invisible Hand”** — the idea that individuals pursuing their own interests can, through market interactions, contribute to broader market coordination.
+
+Rather than attempting to prove Smith's broader philosophical claim, the project investigates whether observable market data contain statistical evidence of **systematic adjustment toward more stable market outcomes following shocks**. It studies three real markets — crude oil (WTI), wheat, and copper — using real, publicly sourced monthly data from 1986/1992–2026.
 
 ## Project structure
 
@@ -13,7 +13,7 @@ wheat, and copper — using real, publicly sourced monthly data from 1986/1992�
 project/
 ├── data/
 │   ├── raw/            # Raw series exactly as collected from source (FRED / EIA)
-│   └── processed/       # Cleaned, merged, inflation-adjusted panels (data_prep.py output)
+│   └── processed/      # Cleaned, merged, inflation-adjusted panels (data_prep.py output)
 ├── scripts/
 │   └── data_prep.py     # Reproducible cleaning/merging pipeline (raw -> processed)
 └── notebooks/
