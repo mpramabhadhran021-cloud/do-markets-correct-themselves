@@ -2,8 +2,9 @@ import os
 import pandas as pd
 
 # File locations
-raw = os.path.join("..", "data", "raw")
-processed = os.path.join("..", "data", "processed")
+base = os.path.dirname(os.path.dirname(__file__))
+raw = os.path.join(base, "data", "raw")
+processed = os.path.join(base, "data", "processed")
 os.makedirs(processed, exist_ok=True)
 
 
